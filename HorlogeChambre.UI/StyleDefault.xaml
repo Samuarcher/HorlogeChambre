@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Style TargetType="TextBlock">
+		<Setter Property="Foreground" Value="White"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+	</Style>
+	<Style TargetType="GroupBox">
+		<Setter Property="Margin" Value="10"/>
+		<Setter Property="Padding" Value="5"/>
+		<Setter Property="Foreground" Value="White"/>
+		<Setter Property="FontSize" Value="40"/>
+	</Style>
+</ResourceDictionary>

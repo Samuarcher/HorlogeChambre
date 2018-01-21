@@ -1,0 +1,6 @@
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\bin\Debug\HorlogeChambre.Data.dll
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\bin\Debug\HorlogeChambre.Data.pdb
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Debug\HorlogeChambre.Data.csprojResolveAssemblyReference.cache
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Debug\HorlogeChambre.Data.csproj.CoreCompileInputs.cache
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Debug\HorlogeChambre.Data.dll
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Debug\HorlogeChambre.Data.pdb

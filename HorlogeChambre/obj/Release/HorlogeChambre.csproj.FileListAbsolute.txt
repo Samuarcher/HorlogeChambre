@@ -1,0 +1,16 @@
+D:\Dropbox\Perso\HorlogeChambre\HorlogeChambre.exe.config
+D:\Dropbox\Perso\HorlogeChambre\HorlogeChambre.exe
+D:\Dropbox\Perso\HorlogeChambre\HorlogeChambre.pdb
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csprojResolveAssemblyReference.cache
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\App.baml
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\MainWindow.g.cs
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\App.g.cs
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre_MarkupCompile.cache
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre_MarkupCompile.lref
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\MainWindow.baml
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.g.resources
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\Samuarcher.HorlogeChambre.Properties.Resources.resources
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csproj.GenerateResource.Cache
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csproj.CoreCompileInputs.cache
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.exe
+D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.pdb
