@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Debug\
 Samuarcher.HorlogeChambre
 none
 false
-TRACE
+DEBUG;TRACE
 D:\Travail\Git\HorlogeChambre\HorlogeChambre\App.xaml
 11151548125
 
-6672151769
-1779361535
+10-2115265028
+17284712884
 MainWindow.xaml;
 
-False
+True
 

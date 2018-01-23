@@ -3,3 +3,8 @@ D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\bin\Release\HorlogeCham
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.csproj.CoreCompileInputs.cache
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.dll
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\bin\Release\HorlogeChambre.Data.dll
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\bin\Release\HorlogeChambre.Data.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.csproj.CoreCompileInputs.cache
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.dll
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.pdb

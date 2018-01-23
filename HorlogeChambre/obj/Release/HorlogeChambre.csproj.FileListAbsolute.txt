@@ -14,3 +14,16 @@ D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.c
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csproj.CoreCompileInputs.cache
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.exe
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csprojResolveAssemblyReference.cache
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\App.baml
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\MainWindow.g.cs
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\App.g.cs
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre_MarkupCompile.cache
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre_MarkupCompile.lref
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.exe
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\MainWindow.baml
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.g.resources
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\Samuarcher.HorlogeChambre.Properties.Resources.resources
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csproj.GenerateResource.Cache
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Release\HorlogeChambre.csproj.CoreCompileInputs.cache

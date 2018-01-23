@@ -52,6 +52,7 @@
     <Compile Include="RecuperationInfoGeneral.cs" />
     <Compile Include="RecuperationMeteo.cs" />
     <Compile Include="RecuperationTemperateur.cs" />
+    <Compile Include="RecuperationTrajet.cs" />
     <Compile Include="Repository\HttpRepository.cs" />
     <Compile Include="Repository\JeedomRepository.cs" />
     <Compile Include="Repository\OpenWeatherMapRepository.cs" />

@@ -21,3 +21,6 @@ D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Debug\HorlogeChambre.csp
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Debug\HorlogeChambre.csproj.CoreCompileInputs.cache
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Debug\HorlogeChambre.exe
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre\obj\Debug\HorlogeChambre.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\bin\Debug\HorlogeChambre.exe.config
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Debug\HorlogeChambre.exe
+D:\Travail\Git\HorlogeChambre\HorlogeChambre\obj\Debug\HorlogeChambre.pdb

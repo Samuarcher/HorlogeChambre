@@ -7,3 +7,12 @@ D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\Horlog
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.csproj.CoreCompileInputs.cache
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.dll
 D:\Travail\Samuarcher\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.ReadModel.dll
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.ReadModel.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\Newtonsoft.Json.dll
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.Data.dll
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.Data.pdb
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.csprojResolveAssemblyReference.cache
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.csproj.CoreCompileInputs.cache
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.dll
+D:\Travail\Git\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.pdb

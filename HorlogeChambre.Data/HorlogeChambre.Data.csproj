@@ -51,6 +51,7 @@
     <Compile Include="Interface\IRecuperationInfoGeneral.cs" />
     <Compile Include="Interface\IRecuperationMeteo.cs" />
     <Compile Include="Interface\IRecuperationTemperature.cs" />
+    <Compile Include="Interface\IRecuperationTrajet.cs" />
     <Compile Include="Interface\Repository\IJeedomRepository.cs" />
     <Compile Include="Interface\Repository\IOpenWeatherMapRepository.cs" />
     <Compile Include="OpenWeatherMap\Clouds.cs" />

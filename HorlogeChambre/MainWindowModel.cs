@@ -19,7 +19,8 @@ namespace Samuarcher.HorlogeChambre
 			this.Colonne1 = new Colonne1ViewModel(new RecuperationDateHeure(openWeatherMapRepository));
 			this.Colonne2 = new Colonne2ViewModel(new RecuperationMeteo(openWeatherMapRepository));
 			this.Colonne3 = new Colonne3ViewModel(new RecuperationTemperateur(jeedomRepository),
-				new RecuperationHumidite(jeedomRepository));
+				new RecuperationHumidite(jeedomRepository),
+			    new RecuperationTrajet(jeedomRepository));
 		}
 
 		public void SetTask()
