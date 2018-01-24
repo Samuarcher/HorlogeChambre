@@ -8,3 +8,8 @@ D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\bin\Release\HorlogeChambre.Dat
 D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.csproj.CoreCompileInputs.cache
 D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.dll
 D:\Travail\Git\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.pdb
+F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\bin\Release\HorlogeChambre.Data.dll
+F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\bin\Release\HorlogeChambre.Data.pdb
+F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.csproj.CoreCompileInputs.cache
+F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.dll
+F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.pdb

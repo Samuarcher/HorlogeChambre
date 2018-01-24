@@ -5,5 +5,6 @@
 		double GetExterieur();
 		double GetTemperatureNest();
 		double GetConsigneNest();
+		double GetSejour();
 	}
 }

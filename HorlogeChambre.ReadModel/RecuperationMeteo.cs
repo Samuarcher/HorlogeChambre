@@ -18,11 +18,11 @@ namespace Samuarcher.HorlogeChambre.ReadModel
 		{
 			OpenWeatherMap openWeatherMap = this._openWeatherMapRepository.GetOpenWeatherMap();
 
-			Weather weather = openWeatherMap?.weather.FirstOrDefault();
+			Weather weather = openWeatherMap?.Weather.FirstOrDefault();
 			if (weather == null)
 				return null;
 
-			string urlImage = $@"http://openweathermap.org/img/w/{weather.icon}.png";
+			string urlImage = $@"http://openweathermap.org/img/w/{weather.Icon}.png";
 
 			return urlImage;
 		}

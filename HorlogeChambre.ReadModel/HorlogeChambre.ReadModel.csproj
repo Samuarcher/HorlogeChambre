@@ -50,6 +50,7 @@
     <Compile Include="RecuperationDateHeure.cs" />
     <Compile Include="RecuperationHumidite.cs" />
     <Compile Include="RecuperationInfoGeneral.cs" />
+    <Compile Include="RecuperationLuminosite.cs" />
     <Compile Include="RecuperationMeteo.cs" />
     <Compile Include="RecuperationTemperateur.cs" />
     <Compile Include="RecuperationTrajet.cs" />

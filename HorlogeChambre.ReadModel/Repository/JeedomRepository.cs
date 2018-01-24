@@ -4,11 +4,11 @@ namespace Samuarcher.HorlogeChambre.ReadModel.Repository
 {
     public class JeedomRepository : IJeedomRepository
     {
-        private const string URL = "http://192.168.1.160/core/api/jeeApi.php?apikey=M6AZyHRb2ueNPDhhLxhKap3174CWOxmb";
+        private const string Url = "http://192.168.1.160/core/api/jeeApi.php?apikey=M6AZyHRb2ueNPDhhLxhKap3174CWOxmb";
 
         public string GetInfoCommande(string id)
         {
-            string url = this.AddParam(URL, "type", "cmd");
+            string url = this.AddParam(Url, "type", "cmd");
             url = this.AddParam(url, "id", id);
             return HttpRepository.Get(url);
         }

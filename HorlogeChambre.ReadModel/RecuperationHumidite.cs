@@ -7,8 +7,8 @@ namespace Samuarcher.HorlogeChambre.ReadModel
 	public class RecuperationHumidite : IRecuperationHumidite
 	{
 		private readonly IJeedomRepository _jeedomRepository;
-		private const string ID_HUMIDITE_EXTERIEUR = "140";
-	    private const string ID_HUMIDITE_NEST = "68";
+		private const string IdHumiditeExterieur = "140";
+	    private const string IdHumiditeNest = "68";
 
         public RecuperationHumidite(IJeedomRepository jeedomRepository)
 		{
@@ -17,14 +17,14 @@ namespace Samuarcher.HorlogeChambre.ReadModel
 
 		public double GetExterieur()
 		{
-			string humidite = this._jeedomRepository.GetInfoCommande(ID_HUMIDITE_EXTERIEUR);
+			string humidite = this._jeedomRepository.GetInfoCommande(IdHumiditeExterieur);
 
 			return Convert.ToDouble(humidite.Replace(".", ","));
         }
 
 	    public double GetNest()
 	    {
-	        string humidite = this._jeedomRepository.GetInfoCommande(ID_HUMIDITE_NEST);
+	        string humidite = this._jeedomRepository.GetInfoCommande(IdHumiditeNest);
 
 	        return Convert.ToDouble(humidite.Replace(".", ","));
         }

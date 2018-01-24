@@ -25,6 +25,18 @@
 					       FontSize="70"/>
 				</StackPanel>
 			</GroupBox>
+			<GroupBox Header="Séjour">
+				<StackPanel Orientation="Vertical">
+					<TextBlock Text="Température"
+					           FontSize="20"/>
+					<TextBlock Text="{Binding TemperatureSejour, StringFormat='\{0\} °C'}"
+					           FontSize="70"/>
+					<TextBlock Text="Humidité"
+					           FontSize="20"/>
+					<TextBlock Text="{Binding LuminositeSejour, StringFormat='\{0\} Lux'}"
+					           FontSize="70"/>
+				</StackPanel>
+			</GroupBox>
 			<GroupBox Header="Extérieur">
 				<StackPanel Orientation="Vertical">
 					<TextBlock Text="Température"
@@ -38,35 +50,5 @@
 				</StackPanel>
 			</GroupBox>
 		</StackPanel>
-        <StackPanel Orientation="Horizontal">
-            <GroupBox Header="Trajet taf">
-                <StackPanel Orientation="Vertical">
-                    <TextBlock FontSize="20">
-                        <TextBlock.Text>
-                            <MultiBinding StringFormat="{}{0} : {1} min">
-                                <Binding Path="LibelleTrajet1" />
-                                <Binding Path="DureeTrajet1" />
-                            </MultiBinding>
-                        </TextBlock.Text>
-                    </TextBlock>
-                    <TextBlock FontSize="20">
-                        <TextBlock.Text>
-                            <MultiBinding StringFormat="{}{0} : {1} min">
-                                <Binding Path="LibelleTrajet2" />
-                                <Binding Path="DureeTrajet2" />
-                            </MultiBinding>
-                        </TextBlock.Text>
-                    </TextBlock>
-                    <TextBlock FontSize="20">
-                        <TextBlock.Text>
-                            <MultiBinding StringFormat="{}{0} : {1} min">
-                                <Binding Path="LibelleTrajet3" />
-                                <Binding Path="DureeTrajet3" />
-                            </MultiBinding>
-                        </TextBlock.Text>
-                    </TextBlock>
-                </StackPanel>
-            </GroupBox>
-        </StackPanel>
 	</StackPanel>
 </UserControl>

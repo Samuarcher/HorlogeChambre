@@ -49,6 +49,7 @@
     <Compile Include="Interface\IRecuperationDateHeure.cs" />
     <Compile Include="Interface\IRecuperationHumidite.cs" />
     <Compile Include="Interface\IRecuperationInfoGeneral.cs" />
+    <Compile Include="Interface\IRecuperationLuminosite.cs" />
     <Compile Include="Interface\IRecuperationMeteo.cs" />
     <Compile Include="Interface\IRecuperationTemperature.cs" />
     <Compile Include="Interface\IRecuperationTrajet.cs" />

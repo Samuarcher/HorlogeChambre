@@ -84,7 +84,7 @@
   },
   "libraries": {
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "files": [
@@ -123,27 +123,22 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samuel.bellon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\alpha-geek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Travail\\Git\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
+      "projectUniqueName": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
       "projectName": "HorlogeChambre.ReadModel",
-      "projectPath": "D:\\Travail\\Git\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
-      "packagesPath": "C:\\Users\\samuel.bellon\\.nuget\\packages\\",
-      "outputPath": "D:\\Travail\\Git\\HorlogeChambre\\HorlogeChambre.ReadModel\\obj\\",
+      "projectPath": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
+      "packagesPath": "C:\\Users\\alpha-geek\\.nuget\\packages\\",
+      "outputPath": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "D:\\Travail\\Git\\HorlogeChambre\\.nuget\\NuGet.Config",
-        "C:\\Users\\samuel.bellon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\.nuget\\NuGet.Config",
+        "C:\\Users\\alpha-geek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net47"
@@ -155,8 +150,8 @@
       "frameworks": {
         "net47": {
           "projectReferences": {
-            "D:\\Travail\\Git\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj": {
-              "projectPath": "D:\\Travail\\Git\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj"
+            "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj": {
+              "projectPath": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj"
             }
           }
         }

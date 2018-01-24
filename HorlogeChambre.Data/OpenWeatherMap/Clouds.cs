@@ -2,6 +2,6 @@
 {
 	public class Clouds
 	{
-		public double all { get; set; }
+		public double All { get; set; }
 	}
 }

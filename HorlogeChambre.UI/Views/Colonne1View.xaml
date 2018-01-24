@@ -32,5 +32,37 @@
 				           HorizontalAlignment="Left"/>
 			</StackPanel>
 		</GroupBox>
+
+		<GroupBox Header="Trajet taf">
+			<StackPanel Orientation="Vertical">
+				<TextBlock FontSize="50"
+				           HorizontalAlignment="Left">
+					<TextBlock.Text>
+						<MultiBinding StringFormat="{}{0} : {1} min">
+							<Binding Path="LibelleTrajet1" />
+							<Binding Path="DureeTrajet1" />
+						</MultiBinding>
+					</TextBlock.Text>
+				</TextBlock>
+				<TextBlock FontSize="50"
+				           HorizontalAlignment="Left">
+					<TextBlock.Text>
+						<MultiBinding StringFormat="{}{0} : {1} min">
+							<Binding Path="LibelleTrajet2" />
+							<Binding Path="DureeTrajet2" />
+						</MultiBinding>
+					</TextBlock.Text>
+				</TextBlock>
+				<TextBlock FontSize="50"
+				           HorizontalAlignment="Left">
+					<TextBlock.Text>
+						<MultiBinding StringFormat="{}{0} : {1} min">
+							<Binding Path="LibelleTrajet3" />
+							<Binding Path="DureeTrajet3" />
+						</MultiBinding>
+					</TextBlock.Text>
+				</TextBlock>
+			</StackPanel>
+		</GroupBox>
 	</StackPanel>
 </UserControl>

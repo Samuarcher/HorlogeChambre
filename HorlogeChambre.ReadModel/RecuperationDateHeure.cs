@@ -31,14 +31,14 @@ namespace Samuarcher.HorlogeChambre.ReadModel
 		{
 			OpenWeatherMap openWeatherMap = this._openWeatherMapRepository.GetOpenWeatherMap();
 
-			return this.GetDateTime(openWeatherMap.sys.sunrise);
+			return this.GetDateTime(openWeatherMap.Sys.Sunrise);
 		}
 
 		public DateTime GetCoucherSoleil()
 		{
 			OpenWeatherMap openWeatherMap = this._openWeatherMapRepository.GetOpenWeatherMap();
 
-			return this.GetDateTime(openWeatherMap.sys.sunset);
+			return this.GetDateTime(openWeatherMap.Sys.Sunset);
 		}
 	}
 }

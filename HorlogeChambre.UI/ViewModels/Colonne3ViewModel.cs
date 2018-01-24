@@ -7,22 +7,18 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 	{
 		private readonly IRecuperationTemperature _recuperationTemperature;
 		private readonly IRecuperationHumidite _recuperationHumidite;
-	    private readonly IRecuperationTrajet _recuperationTrajet;
+		private readonly IRecuperationLuminosite _recuperationLuminosite;
 
-	    private double _humiditeExterieur;
-	    private string _libelleTrajet1;
-	    private string _dureeTrajet1;
-	    private string _libelleTrajet2;
-	    private string _dureeTrajet2;
-	    private string _libelleTrajet3;
-	    private string _dureeTrajet3;
+		private double _humiditeExterieur;
 	    private double _temperatureNest;
 	    private double _humiditeNest;
 	    private double _consigneNest;
 	    private double _temperatureExterieur;
+		private double _temperatureSejour;
+		private double _luminositeSejour;
 
-        
-        public double TemperatureNest
+
+		public double TemperatureNest
 		{
 			get => this._temperatureNest;
 			set
@@ -41,13 +37,33 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 	            this.RaisePropertyChanged();
 	        }
 	    }
-        
+
 		public double ConsigneNest
 		{
 			get => this._consigneNest;
 			set
 			{
 				this._consigneNest = value;
+				this.RaisePropertyChanged();
+			}
+		}
+
+		public double TemperatureSejour
+		{
+			get => this._temperatureSejour;
+			set
+			{
+				this._temperatureSejour = value;
+				this.RaisePropertyChanged();
+			}
+		}
+
+		public double LuminositeSejour
+		{
+			get => this._luminositeSejour;
+			set
+			{
+				this._luminositeSejour = value;
 				this.RaisePropertyChanged();
 			}
 		}
@@ -72,74 +88,14 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 			}
 		}
 
-	    public string LibelleTrajet1
-	    {
-	        get => this._libelleTrajet1;
-	        set
-	        {
-	            this._libelleTrajet1 = value;
-	            this.RaisePropertyChanged();
-            }
-	    }
-
-	    public string DureeTrajet1
-	    {
-	        get => this._dureeTrajet1;
-	        set
-	        {
-	            this._dureeTrajet1 = value;
-	            this.RaisePropertyChanged();
-            }
-	    }
-
-	    public string LibelleTrajet2
-	    {
-	        get => this._libelleTrajet2;
-	        set
-	        {
-	            this._libelleTrajet2 = value;
-	            this.RaisePropertyChanged();
-            }
-	    }
-
-	    public string DureeTrajet2
-	    {
-	        get => this._dureeTrajet2;
-	        set
-	        {
-	            this._dureeTrajet2 = value;
-	            this.RaisePropertyChanged();
-            }
-	    }
-
-	    public string LibelleTrajet3
-	    {
-	        get => this._libelleTrajet3;
-	        set
-	        {
-	            this._libelleTrajet3 = value;
-	            this.RaisePropertyChanged();
-            }
-	    }
-
-	    public string DureeTrajet3
-	    {
-	        get => this._dureeTrajet3;
-	        set
-	        {
-	            this._dureeTrajet3 = value;
-	            this.RaisePropertyChanged();
-            }
-	    }
-
 
 	    public Colonne3ViewModel(IRecuperationTemperature recuperationTemperature,
 			IRecuperationHumidite recuperationHumidite,
-		    IRecuperationTrajet recuperationTrajet)
+			IRecuperationLuminosite recuperationLuminosite)
 		{
 			this._recuperationTemperature = recuperationTemperature;
 			this._recuperationHumidite = recuperationHumidite;
-		    this._recuperationTrajet = recuperationTrajet;
+			this._recuperationLuminosite = recuperationLuminosite;
 		}
 
 		public override void SetTask()
@@ -147,14 +103,10 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 			PeriodicTask.Run(() => this.TemperatureNest = this._recuperationTemperature.GetTemperatureNest(), TimeSpan.FromMinutes(10));
 		    PeriodicTask.Run(() => this.HumiditeNest = this._recuperationHumidite.GetNest(), TimeSpan.FromMinutes(10));
             PeriodicTask.Run(() => this.ConsigneNest = this._recuperationTemperature.GetConsigneNest(), TimeSpan.FromMinutes(10));
+			PeriodicTask.Run(() => this.TemperatureSejour = this._recuperationTemperature.GetSejour(), TimeSpan.FromMinutes(10));
+			PeriodicTask.Run(() => this.LuminositeSejour = this._recuperationLuminosite.GetSejour(), TimeSpan.FromMinutes(10));
 			PeriodicTask.Run(() => this.TemperatureExterieur = this._recuperationTemperature.GetExterieur(), TimeSpan.FromMinutes(10));
 			PeriodicTask.Run(() => this.HumiditeExterieur = this._recuperationHumidite.GetExterieur(), TimeSpan.FromMinutes(10));
-		    PeriodicTask.Run(() => this.LibelleTrajet1 = this._recuperationTrajet.GetLibelleTrajet1(), TimeSpan.FromMinutes(5));
-		    PeriodicTask.Run(() => this.LibelleTrajet2 = this._recuperationTrajet.GetLibelleTrajet2(), TimeSpan.FromMinutes(5));
-		    PeriodicTask.Run(() => this.LibelleTrajet3 = this._recuperationTrajet.GetLibelleTrajet3(), TimeSpan.FromMinutes(5));
-		    PeriodicTask.Run(() => this.DureeTrajet1 = this._recuperationTrajet.GetDureeTrajet1(), TimeSpan.FromMinutes(5));
-		    PeriodicTask.Run(() => this.DureeTrajet2 = this._recuperationTrajet.GetDureeTrajet2(), TimeSpan.FromMinutes(5));
-            PeriodicTask.Run(() => this.DureeTrajet3 = this._recuperationTrajet.GetDureeTrajet3(), TimeSpan.FromMinutes(5));
         }
 	}
 }

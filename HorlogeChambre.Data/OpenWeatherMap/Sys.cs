@@ -2,11 +2,11 @@
 {
 	public class Sys
 	{
-		public int type { get; set; }
-		public long id { get; set; }
-		public double message { get; set; }
-		public string country { get; set; }
-		public long sunrise { get; set; }
-		public long sunset { get; set; }
+		public int Type { get; set; }
+		public long Id { get; set; }
+		public double Message { get; set; }
+		public string Country { get; set; }
+		public long Sunrise { get; set; }
+		public long Sunset { get; set; }
 	}
 }

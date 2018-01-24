@@ -7,12 +7,12 @@ namespace Samuarcher.HorlogeChambre.ReadModel.Repository
 {
 	public class OpenWeatherMapRepository : IOpenWeatherMapRepository
 	{
-		private const string API_KEY = "433febe32eafaee7dcf847c9bca0fee9";
-		private const string ID_VILLE = "3000192";
+		private const string ApiKey = "433febe32eafaee7dcf847c9bca0fee9";
+		private const string IdVille = "3000192";
 
 		public OpenWeatherMap GetOpenWeatherMap()
 		{
-			var url = $"http://api.openweathermap.org/data/2.5/weather?id={ID_VILLE}&APPID={API_KEY}&units=metric";
+			var url = $"http://api.openweathermap.org/data/2.5/weather?id={IdVille}&APPID={ApiKey}&units=metric";
 
 			string json = HttpRepository.Get(url);
 
@@ -24,7 +24,7 @@ namespace Samuarcher.HorlogeChambre.ReadModel.Repository
 			{
 				openWeatherMap = JsonConvert.DeserializeObject<OpenWeatherMap>(json);
 			}
-			catch (Exception e)
+			catch (Exception)
 			{
 				return null;
 			}
