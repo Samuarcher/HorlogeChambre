@@ -19,10 +19,6 @@
 				               FontSize="20"/>
                     <TextBlock Text="{Binding HumiditeNest, StringFormat='\{0\} %'}"
 				               FontSize="70"/>
-                    <TextBlock Text="Consigne"
-					           FontSize="20"/>
-					<TextBlock Text="{Binding ConsigneNest, StringFormat='\{0\} °C'}"
-					       FontSize="70"/>
 				</StackPanel>
 			</GroupBox>
 			<GroupBox Header="Séjour">

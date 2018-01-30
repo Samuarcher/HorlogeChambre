@@ -12,7 +12,6 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 		private double _humiditeExterieur;
 	    private double _temperatureNest;
 	    private double _humiditeNest;
-	    private double _consigneNest;
 	    private double _temperatureExterieur;
 		private double _temperatureSejour;
 		private double _luminositeSejour;
@@ -37,16 +36,6 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 	            this.RaisePropertyChanged();
 	        }
 	    }
-
-		public double ConsigneNest
-		{
-			get => this._consigneNest;
-			set
-			{
-				this._consigneNest = value;
-				this.RaisePropertyChanged();
-			}
-		}
 
 		public double TemperatureSejour
 		{
@@ -102,7 +91,6 @@ namespace Samuarcher.HorlogeChambre.UI.ViewModels
 		{
 			PeriodicTask.Run(() => this.TemperatureNest = this._recuperationTemperature.GetTemperatureNest(), TimeSpan.FromMinutes(10));
 		    PeriodicTask.Run(() => this.HumiditeNest = this._recuperationHumidite.GetNest(), TimeSpan.FromMinutes(10));
-            PeriodicTask.Run(() => this.ConsigneNest = this._recuperationTemperature.GetConsigneNest(), TimeSpan.FromMinutes(10));
 			PeriodicTask.Run(() => this.TemperatureSejour = this._recuperationTemperature.GetSejour(), TimeSpan.FromMinutes(10));
 			PeriodicTask.Run(() => this.LuminositeSejour = this._recuperationLuminosite.GetSejour(), TimeSpan.FromMinutes(10));
 			PeriodicTask.Run(() => this.TemperatureExterieur = this._recuperationTemperature.GetExterieur(), TimeSpan.FromMinutes(10));

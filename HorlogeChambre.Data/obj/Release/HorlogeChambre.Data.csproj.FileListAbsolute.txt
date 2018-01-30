@@ -13,3 +13,4 @@ F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\bin\Release\Horloge
 F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.csproj.CoreCompileInputs.cache
 F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.dll
 F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.pdb
+F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.Data\obj\Release\HorlogeChambre.Data.csprojResolveAssemblyReference.cache

@@ -8,7 +8,6 @@ namespace Samuarcher.HorlogeChambre.ReadModel
 	{
 		private readonly IJeedomRepository _jeedomRepository;
 		private const string IdTemperatureNest = "67";
-		private const string IdConsigneNest = "72";
 		private const string IdTemperatureExterieur = "141";
 		private const string IdSejour = "11";
 
@@ -29,13 +28,6 @@ namespace Samuarcher.HorlogeChambre.ReadModel
 		    string temperatureNest = this._jeedomRepository.GetInfoCommande(IdTemperatureNest);
 
 			return Convert.ToDouble(temperatureNest.Replace(".", ","));
-        }
-
-		public double GetConsigneNest()
-		{
-		    string consigneNest = this._jeedomRepository.GetInfoCommande(IdConsigneNest);
-
-			return Convert.ToDouble(consigneNest.Replace(".", ","));
         }
 
 		public double GetSejour()
