@@ -128,15 +128,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
+      "projectUniqueName": "G:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
       "projectName": "HorlogeChambre.ReadModel",
-      "projectPath": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
+      "projectPath": "G:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\HorlogeChambre.ReadModel.csproj",
       "packagesPath": "C:\\Users\\alpha-geek\\.nuget\\packages\\",
-      "outputPath": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\obj\\",
+      "outputPath": "G:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.ReadModel\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\.nuget\\NuGet.Config",
+        "G:\\Users\\Documents\\GitHub\\HorlogeChambre\\.nuget\\NuGet.Config",
         "C:\\Users\\alpha-geek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -150,8 +150,8 @@
       "frameworks": {
         "net47": {
           "projectReferences": {
-            "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj": {
-              "projectPath": "F:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj"
+            "G:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj": {
+              "projectPath": "G:\\Users\\Documents\\GitHub\\HorlogeChambre\\HorlogeChambre.Data\\HorlogeChambre.Data.csproj"
             }
           }
         }

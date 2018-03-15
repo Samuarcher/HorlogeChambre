@@ -25,3 +25,12 @@ F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\Ho
 F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.csproj.CoreCompileInputs.cache
 F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.dll
 F:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.pdb
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.ReadModel.dll
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.ReadModel.pdb
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\Newtonsoft.Json.dll
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.Data.dll
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\bin\Release\HorlogeChambre.Data.pdb
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.csprojResolveAssemblyReference.cache
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.csproj.CoreCompileInputs.cache
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.dll
+G:\Users\Documents\GitHub\HorlogeChambre\HorlogeChambre.ReadModel\obj\Release\HorlogeChambre.ReadModel.pdb

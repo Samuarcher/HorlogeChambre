@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="1000" d:DesignWidth="1000"
 			 d:DataContext="{d:DesignInstance viewModels:Colonne1ViewModel}">
-	<StackPanel Orientation="Vertical">
+	<StackPanel Orientation="Vertical" MaxWidth="1150">
 		<GroupBox Header="Heure">
 			<TextBlock Text="{Binding DateJour, ConverterCulture='fr-FR', StringFormat=\{0:T\}}"
 				   FontSize="200"/>
